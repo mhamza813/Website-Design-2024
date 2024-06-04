@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset style="border: 2px; background-color: aqua;">
+    <a href="../../index.html">Step 1: Account</a>
+    <a href="../child.html">Step 2: Personal Details</a>
+    <a href="grandchild.html">Step 3: Your Review</a>
+</fieldset>
+<form action="www.example.com/form.php">
+    <fieldset>
+        <legend><h1>Your Review</h1></legend>
+        <label for="How did you hear about us">How did you hear about us?</label>
+        <select name="hear" >
+            <option value="Select your Option">Select your Option</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value="None">None</option>
+        </select>
+        <p>Would you visit again?</p>
+        <input type="radio" name="genre" value="Yes" >Yes
+        <input type="radio" name="genre" value="No">No
+        <input type="radio" name="genre" value="Maybe">Maybe
+        <p>Comments:</p>
+        <textarea name="Comments" cols="40" rows="5" placeholder="Enter your Comments Here..."></textarea>
+        <p>Documents:</p>
+        <input type="file" name="Choose File" >
+        <br>
+        <br>
+        <input type="checkbox" name="Sign" >Sign me up for email updates
+        <br>
+        <br>
+        <a href="../child.html"><img src="../../Images/Back.png" alt="Back" width="100"></a>
+        <a href="submit.html"><img src="../../Images/submit.png" alt="submit" width="110"></a>
+
+        <a href="submit.html"></a>
+        
+        
+
+    </fieldset>
+</form>
+</body>
+</html>
