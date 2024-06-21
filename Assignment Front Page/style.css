@@ -1,0 +1,74 @@
+.start{
+    background-color: whitesmoke;
+}
+.abc{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+    margin-left: 5px;
+}
+#all{
+    
+    width: 85%;
+    text-transform: uppercase;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+#all ul li{
+    display: inline;
+    margin-left: 50px;
+}
+#all ul li a{
+    text-decoration: none;
+    color: gray;
+}
+#all ul li :hover{
+    color: pink;
+}
+#all ul li :active{
+    color: burlywood;
+}
+#full{
+    /* width: 100%;
+    height: 100px; */
+    background-color: whitesmoke;
+}
+#red{
+    color: red;
+    
+}
+.half{
+    float: right;
+    position: absolute;
+    right: 20%;
+    width: 34%;
+    top: 118%
+}
+#red p{
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.para{
+    background-color: whitesmoke;
+    height: 380px;
+}
+.final{
+    background-color:#c8c10d;
+    width: 100%;
+    height: 143px;
+}
+.final ul li{
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 45px;
+}
+.final ul li{
+    display: inline;
+}
+
