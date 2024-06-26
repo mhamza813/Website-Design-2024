@@ -1,0 +1,40 @@
+#abc{
+    font-size: 2em;
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: overline;
+    line-height: 1.5em;
+    word-spacing: 1.5em;
+    text-align: justify;
+    /* border: 2px solid blue; */
+    text-indent: 4em;
+    
+}
+h1{
+    color: tomato;
+    text-shadow: 5px 15px 2px blue;
+}
+/* p::first-letter{
+    font-size: 4em;
+
+}
+a:link{
+    color: brown;
+}
+a:visited{
+    color: aqua;
+} */
+a{
+  color: brown;  
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: bisque;
+}
+a:focus{
+    color: yellow;
+}
