@@ -1,0 +1,58 @@
+form{
+    border: 2px solid black;
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    background-color:aqua;
+    border: none;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 10px;
+
+}
+#account{
+    text-align: center;
+}
+form>* {
+    margin-bottom: 5px;
+}
+button{
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 15px;
+    border-radius: 6px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: black ;
+    cursor:grab;
+}
+#email{
+    background-image:url(email.jpg);
+    background-size: 15px ;
+    background-repeat: no-repeat;
+    padding-left: 28px;
+    background-size: 28px;
+    background-position: -1px -5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#pass{
+    background-image: url(lock.png);
+    background-size: 15px ;
+    background-repeat: no-repeat;
+    padding-left: 28px;
+    background-size: 28px;
+    background-position: -1px -5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#check{
+    padding: 3px;
+    
+}
+.empas{
+    outline: none;
+}
